@@ -9,7 +9,7 @@ on:
 # jobs запускаются параллельно, если не указана последовательность
 jobs: 
   my_build_job:
-    runs-on: ubuntu-latest, windows-latest
+    runs-on: windows-latest
     steps: 
       - uses: actions/checkout@v3
 
